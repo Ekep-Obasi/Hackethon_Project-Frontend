@@ -11,26 +11,19 @@ const Home = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsLoading(true);
     const { target } = e;
     setUrl((prev) => [...prev, target.elements.url.value]);
-    setImage(async () => await sendUrl(target.elements.url.value));
-    console.log(await image);
-    console.log(url);
-  };
-
-  const handleChange = (url) => {
-    if (url.length === 0 || url === "") {
-      isLoading(false);
-    } else {
-      setIsLoading(true);
-    }
+    sendUrl(target.elements.url.value)
+      .then((res) => cons)
+      .then(() => setIsLoading(false));
   };
 
   return (
     <HomeStyles>
       <FormWrapprer
         img={image}
-        state={isLoading}
+        state={url.length}
         onSubmit={(e) => handleSubmit(e)}
       >
         <h1>URL Previewer</h1>
@@ -45,7 +38,6 @@ const Home = () => {
             type="url"
             name="url"
             id="url"
-            onChange={(e) => handleChange(e.target.value)}
             required
           />
           <button type="submit">Enter</button>

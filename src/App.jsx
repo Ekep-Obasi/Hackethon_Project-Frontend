@@ -3,6 +3,7 @@ import Home from "./pages/home/home";
 import AppStyles from "./App.styles";
 import { useState } from "react";
 import { AppProvider } from "./context/context";
+import Test from "./pages/Test";
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
@@ -13,6 +14,7 @@ function App() {
         <Router>
           <Routes>
             <Route element={<Home />} index />
+            <Route element={<Test />} path="/test" />
           </Routes>
         </Router>
       </AppStyles>

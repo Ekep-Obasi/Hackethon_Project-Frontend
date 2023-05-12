@@ -21,7 +21,7 @@ const FormWrapprer = styled.form`
     color: #2c387e;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
-    top: 12px;
+    top: 19px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -34,7 +34,7 @@ const FormWrapprer = styled.form`
   }
 
   .box {
-    height: ${({ state }) => (state ? "250px" : "0px")};
+    height: ${({ state }) => (state !== 0 ? "250px" : "0px")};
     transition: 0.5s linear height;
     width: 41%;
     border-radius: 12px;
@@ -46,7 +46,10 @@ const FormWrapprer = styled.form`
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     position: relative;
-    background-image: ${({ image }) => image && image};
+    background-image: ${({ img }) => img && `url(${img})`};
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     a {
       position: absolute;
