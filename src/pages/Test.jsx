@@ -1,5 +1,5 @@
 import Link from "../component/atoms/historyLinks/Link";
-import LinkCard from "../component/molecules/linkCard/LinkCard";
+import LinkCardSkeleton from "../component/molecules/linkCard/LinkCardSkeleton";
 
 const Test = () => {
   return (
@@ -13,8 +13,8 @@ const Test = () => {
         justifyContent: "center",
       }}
     >
-      <LinkCard />
       <Link />
+      <LinkCardSkeleton />
     </div>
   );
 };

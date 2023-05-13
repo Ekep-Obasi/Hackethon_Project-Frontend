@@ -1,21 +1,21 @@
 /* eslint-disable react/prop-types */
-import { MutatingDots } from "react-loader-spinner";
+import { ThreeDots } from "react-loader-spinner";
+import { StyledLoader } from "./loader.styles";
 
 const Loader = ({ state }) => {
   return (
-    <div>
-      <MutatingDots
-        height="100"
-        width="100"
-        color="#2c387e"
-        secondaryColor="#ffc400"
-        radius="12.5"
-        ariaLabel="mutating-dots-loading"
+    <StyledLoader>
+      <ThreeDots
+        height="80"
+        width="80"
+        color="#2c3e50"
+        radius="9"
+        ariaLabel="three-dots-loading"
         wrapperStyle={{}}
         wrapperClass=""
         visible={state}
       />
-    </div>
+    </StyledLoader>
   );
 };
 

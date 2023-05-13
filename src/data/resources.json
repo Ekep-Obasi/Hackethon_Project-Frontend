@@ -1,0 +1,37 @@
+[
+  {
+    "icon": "<i class='fa fa-thumbs-up fa-bounce' aria-hidden='true'></i>",
+    "name": "Easy",
+    "description": "Generate rich previews that show  title and description and image of the page"
+  },
+  {
+    "icon": "<i class='fa fa-link fa-bounce' aria-hidden='true'></i>",
+    "name": "Shortened",
+    "description": "Use any link, no matter what size, LinkPreview always shortens"
+  },
+  {
+    "icon": "<i class='fa-shield fa-sharp fa-solid  fa-bounce'></i>",
+    "name": "secure",
+    "description": "It is fast and secure, our service have HTTPS protocol and data encryption"
+  },
+  {
+    "icon": "<i class='fa-solid fa-chart-simple fa-bounce'></i>",
+    "name": "Analytics",
+    "description": "Track the number of times a preview is generated and clicked on"
+  },
+  {
+    "icon": "<i class='fa-solid fa-laptop fa-bounce'></i>",
+    "name": "Devices",
+    "description": "Compatible with smartphones, tablets and desktop"
+  },
+  {
+    "icon": "<i class='fa-sharp fa-solid fa-share-nodes fa-bounce'></i>",
+    "name": "Share",
+    "description": "Social media sharing buttons to the preview, allowing users to share the preview on their social media accounts"
+  },
+  {
+    "icon": "<i class='fa-solid fa-code fa-bounce'></i>",
+    "name": "Embed",
+    "description": "Allow users to embed the preview on their website or blog"
+  }
+]
