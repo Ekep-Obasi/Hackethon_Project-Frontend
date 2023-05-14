@@ -6,7 +6,7 @@ A sample project express js web crawler that converts URL to screenshot bootstra
 
 In the project directory you can run
 
-## `npm run start`
+## `npm run dev`
 
 Run the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view in the browser
