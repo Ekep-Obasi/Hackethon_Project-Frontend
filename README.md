@@ -1,6 +1,6 @@
 # Hackethon Project Frontend
 
-A sample project express js web crawler that converts URL to screenshot bootstrapped with [Create Vite App](https://vitejs.dev/guide/)
+A sample link previwer bootstrapped with [Create Vite App](https://vitejs.dev/guide/)
 
 ## Available Scripts
 
