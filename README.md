@@ -6,7 +6,7 @@ A sample link previwer bootstrapped with [Create Vite App](https://vitejs.dev/gu
 
 In the project directory you can run
 
-## `npm dev`
+## `npm run dev`
 
 Run the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view in the browser
