@@ -1,6 +1,6 @@
 # Hackethon Project Frontend
 
-A sample link previwer bootstrapped with [Create Vite App](https://vitejs.dev/guide/)
+A sample link previwer bootstrapped with [Create Vite App](https://vitejs.dev/guide)
 
 ## Available Scripts
 
